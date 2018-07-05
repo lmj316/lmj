@@ -1,0 +1,72 @@
+.young {
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+    background: url(../images/background.png);
+    height: 1000px;
+    position: relative;
+    perspective: 1000px;
+    overflow: hidden;
+}
+.music {
+    position: absolute;
+    top: 4%;
+    right: 4%;
+    animation: run-music 3s linear infinite;
+}
+@keyframes run-music {
+    from {
+        transform: rotateZ(0deg);
+    } to {
+        transform: rotateZ(360deg);
+    }
+}
+.cloud-1 {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    opacity: 0;
+}
+.youngPower {
+    position: absolute;
+    width: 100%;
+    top: 23%;
+    z-index: 2;
+    transform: translateZ(1200px) scale(1);
+}
+.paper {
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    transform: translateZ(1000px) rotateZ(0deg);
+}
+.emblem {
+    position: absolute;
+    width: 100%;
+    top: 32%;
+    transform: translateX(1000px);
+    z-index: 3;
+}
+.words {
+    position: absolute;
+    width: 50%;
+    top: 44%;
+    right: 2%;
+    transform: translateX(-1000px);
+}
+.machine {
+    position: absolute;
+    width: 50%;
+    top: 64%;
+    left: 2%;
+    transform: translateZ(-6000px) scale(0.1);
+    transition: all 1s;
+}
+.people {
+    position: absolute;
+    width: 100%;
+    top: 90%;
+    right: 2%;
+    transform: translateZ(1000px) translateY(-200px);
+}

@@ -1,0 +1,155 @@
+.merchant {
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+    background-color: #FFF;
+}
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
+ body {
+     background-color: pink;
+ }
+/* 头部导航栏 */
+.header {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color: red;
+    z-index: 999;
+    position: relative;
+}
+.header .icon {
+    font-size: 60px;
+    position: absolute;
+    margin-top: 10px;
+    color: #fff;
+}
+.header span {
+    color: #fff;
+    font-size: 36px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+/* 主体部分---上面 */
+.banner {
+    width: 100%;
+    height: 354px;
+    background: url(../images/back-pic.gif) no-repeat;
+    position: relative;
+}
+.banner .banner-top {
+    width: 100%;
+    height: 270px;
+}
+.banner .logo_03 {
+    position: absolute;
+    left: 50px;
+    top: 40px;
+}
+.banner span {
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    left: 224px;
+    top: 70px;
+}
+.banner .icon {
+    font-size: 60px;
+    position: absolute;
+    right: 26px;
+    top: 76px;
+    color: #fff;
+}
+.banner .vip,.silver,.umbrella  {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: red;
+    border-radius: 8px;
+    top: 157px;
+}
+.banner .vip {
+    left: 220px;
+}
+.banner .silver {
+    left: 255px;
+}
+.banner .umbrella {
+    left: 290px;
+}
+/* 主体部分---下面 */
+.banner .banner-bottom {
+    width: 100%;
+    height: 84px;
+    background: rgba(0,0,0,0.05);
+}
+.banner .banner-bottom a {
+    position: absolute;
+    width: 212px;
+    height: 60px;
+    top: 284px;
+    border-right: 2px solid #fff;
+}
+.banner .banner-bottom a:nth-child(2) {
+    left: 214px;
+}
+.banner .banner-bottom a:nth-child(3) {
+    left: 428px;
+    border-right: none;
+}
+.banner .banner-bottom p {
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+}
+/* 导航部分 */
+.nav {
+    width: 100%;
+    height: 408px;
+    background-color: #F3F3F3;
+}
+.nav a {
+    width: 211px;
+    height: 130px;
+    background-color: #fff;
+    float: left;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+    padding: 14px 0;
+}
+.nav a:nth-child(3n) {
+    margin-right: 0;
+}
+.nav p {
+    color: #666666;
+    font-size: 26px;
+}
+/* 广告部分 */
+.advert {
+    width: 100%;
+}
+/* 底部 */
+.footer {
+    width: 100%;
+    height: 98px;
+}
+.footer a {
+    height: 98px;
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.footer a svg {
+    font-size: 40px;
+}
+.footer a p {
+    font-size: 18px;
+}

@@ -1,0 +1,136 @@
+.user {
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+/* 顶部 */
+.user_top {
+    width: 100%;
+    height: 82px;
+    background-color: #0099FF;
+    position: relative;
+}
+.user_top span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 30px;
+}
+/* 登录按钮 */
+.user_on {
+    width: 100%;
+    height: 350px;
+    background: url(../images/user-center.gif) no-repeat;
+    position: relative;
+    border-bottom: 20px solid #D9D9D9;
+}
+.user_on .user_on_1 {
+    
+    width: 135px;
+    height: 135px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    border: 8px solid white;
+}
+.user_on .icon-shangjia3, .user_on_1, span {
+    position: absolute;
+    left: 50%;
+    top: 42%;
+    transform: translate(-50%,-50%);
+}
+.user_on .icon-shangjia3 {
+    font-size: 80px;
+    top: 52%;
+    color: white;
+}
+.user_on span {
+    top: 72%;
+    color: white;
+    font-size: 26px;
+}
+/* 导航栏 */
+.user_banner {
+    width: 100%;
+    height: 556px;
+    position: relative;
+    border-bottom: 1px solid #D9D9D9;
+}
+.user_banner a {
+    display: block;
+    height: 84px;
+    width: 100%;
+    border-bottom: 1px solid #D9D9D9;
+}
+.user_banner img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 4%;
+    left: 3%;;
+}
+.user_banner span {
+    position: absolute;
+    top: 8%;
+    left: 120px;
+    font-size: 20px;
+}
+.user_banner .span2 {
+    top: 23%;
+}
+.user_banner .span3 {
+    top: 38%;
+}
+.user_banner .icon-tongyongshezhi {
+    font-size: 40px;
+    position: absolute;
+    top: 19%;
+    left: 3%;
+    color: #DA7CE2;
+}
+.user_banner .icon-renshu {
+    font-size: 40px;
+    position: absolute;
+    top: 34%;
+    left: 3%;
+    color: #06C1AE;
+}
+.user_banner .icon-zhankai-copy {
+    position: absolute;
+    right: 2%;
+    top: 4%;
+    font-size: 40px;
+}
+.user_banner .copy1 {
+    top: 19%;
+}
+.user_banner .copy2 {
+    top: 34%;
+}
+/* 底部 */
+.user_footer {
+    height: 90px;
+}
+.user_footer a {
+    display: block;
+    float: left;
+    height: 90px;
+    width: 33.33%;
+    position: relative;
+}
+.user_footer a:last-child {
+    color: #0099FF;
+}
+.user_footer .iconfont {
+    position: absolute;
+    font-size: 46px;
+    top: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.user_footer span {
+    top: 72%;
+    font-size: 20px;
+}
